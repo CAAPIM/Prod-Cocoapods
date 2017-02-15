@@ -62,10 +62,12 @@ $ pod install
 
 <table>
 <tr>
-<td><iframe width="280" height="157" src="https://www.youtube.com/embed/h95MF55Uuuw" frameborder="0" allowfullscreen></iframe></td>
+<td><iframe width="280" height="157" src="http://www.youtube.com/embed/h95MF55Uuuw" frameborder="0" allowfullscreen></iframe></td>
 <td>This tutorial describes how to set up the project and start the Mobile SDK.</td>
 </tr>
 </table>
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/h95MF55Uuuw/0.jpg)](http://www.youtube.com/watch?v=h95MF55Uuuw "Starting the SDK")
 
 After your project is properly configured, you must start the SDK to establish a secure connection with the backend services. The startup process includes: initialize necessary services for library (such as geo-location, BLE, and network services), and load configuration.
 
