@@ -60,9 +60,11 @@ $ pod install
 
 ## Set Up Project and Start the SDK
 
+<iframe width="280" height="157" src="http://www.youtube.com/watch?v=h95MF55Uuuw=1" frameborder="0" allowfullscreen></iframe>
+
 <table>
 <tr>
-<td><iframe width="280" height="157" src="http://www.youtube.com/watch?v=h95MF55Uuuw" frameborder="0" allowfullscreen></iframe></td>
+<td><iframe width="280" height="157" src="http://www.youtube.com/watch?v=h95MF55Uuuw=1" frameborder="0" allowfullscreen></iframe></td>
 <td>This tutorial describes how to set up the project and start the Mobile SDK.</td>
 </tr>
 </table>
