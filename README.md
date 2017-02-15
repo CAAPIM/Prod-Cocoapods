@@ -42,7 +42,21 @@ Contributions are welcome and much appreciated. To learn more, see the [Contribu
 
 MASFoundation supports multiple methods for installing the library in a project.
 
-Podfile
+### Manual Installation
+
+In this step, you add the Mobile SDK to your Xcode project. Note that you must add the MASFoundation library. For complete MAS functionality, install all of the MAS libraries as shown.
+
+1. Open your project in Xcode.
+2. Drag the SDK library files, and drop them into your project in the left navigator panel in Xcode. Select the option, `Copy items if needed`.
+3. Select `File->Add files to 'project name'` and add the msso_config.json file from your project folder.
+4. In Xcode "Build Setting” of your Project Target, add `-ObjC` for `Other Linker Flags`.
+5. Import the following Mobile SDK library header file to the classes or to the .pch file if your project has one.
+
+```
+#import <MASFoundation/MASFoundation.h>
+```
+
+### Installation using Cocoapods (Podfile)
 
 To integrate MASFoundation into your Xcode project using CocoaPods, specify it in your **Podfile:**
 
@@ -60,7 +74,9 @@ $ pod install
 
 ## Set Up Project and Start the SDK
 
+The below ***video*** describes how to set up the project and start the Mobile SDK.
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/h95MF55Uuuw/0.jpg)](http://www.youtube.com/watch?v=h95MF55Uuuw "Starting the SDK")
 
 After your project is properly configured, you must start the SDK to establish a secure connection with the backend services. The startup process includes: initialize necessary services for library (such as geo-location, BLE, and network services), and load configuration.
 
