@@ -58,14 +58,16 @@ Then, run the following command via the command prompt from the folder of your p
 $ pod install
 ```
 
-## Start the SDK
+## Set Up Project and Start the SDK
 
 <table>
 <tr>
-<td><iframe width="280" height="157" src="http://www.youtube.com/embed/h95MF55Uuuw" frameborder="0" allowfullscreen></iframe></td>
+<td><iframe width="280" height="157" src="http://www.youtube.com/watch?v=h95MF55Uuuw" frameborder="0" allowfullscreen></iframe></td>
 <td>This tutorial describes how to set up the project and start the Mobile SDK.</td>
 </tr>
 </table>
+
+The below video describes how to set up the project and start the Mobile SDK.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/h95MF55Uuuw/0.jpg)](http://www.youtube.com/watch?v=h95MF55Uuuw "Starting the SDK")
 
