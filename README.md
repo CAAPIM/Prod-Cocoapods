@@ -1,8 +1,8 @@
-MASFoundation is the core iOS framework of the Mobile SDK which belongs to the [CA Mobile App Services][mas.ca.com]. It is responsible to handle all the communication and authentication layer of the Mobile SDK helping developers to easily stablish a secure connection (TLS, Mutual SSL) to any CA Mobile API Gateway.
+MASFoundation is the core iOS framework of the Mobile SDK, which is part of [CA Mobile App Services][mas.ca.com]. MASFoundation handles the communication and authentication layer of the Mobile SDK, making it easy for developers to establish a secure connection (TLS, Mutual SSL) to any CA Mobile API Gateway (MAG).
 
 ## Features
 
-The MASFoundation framework comes with the following features:
+The MASFoundation framework has the following features:
 
 - Authentication
     + OAuth
@@ -19,7 +19,7 @@ The MASFoundation framework comes with the following features:
 - Enterprise Browser
 - Geo Location
 
-## How To Get Started
+## Get Started
 
 - [Download MASFoundation][download] 
 - Read the ["Getting Started" guide][get-started] or watch some [video tutorials][videos]
@@ -28,11 +28,9 @@ The MASFoundation framework comes with the following features:
 
 ## Communication
 
-- If you *need help*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')
-- If you'd like to *ask a general question*, use [Stack Overflow][StackOverflow].
-- If you *found a bug*, open an issue providing steps to reproduce it.
-- If you *have a feature request*, open an issue.
-
+- *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')
+- *Find a bug?*, open an issue with the steps to reproduce it.
+- *Request a feature or have an idea?*, open an issue.
 
 ## How You Can Contribute
 
@@ -42,9 +40,25 @@ Contributions are welcome and much appreciated. To learn more, see the [Contribu
 
 MASFoundation supports multiple methods for installing the library in a project.
 
-### Manual Installation
+### Cocoapods (Podfile) Install
 
-In this step, you add the Mobile SDK to your Xcode project. Note that you must add the MASFoundation library. For complete MAS functionality, install all of the MAS libraries as shown.
+To integrate MASFoundation into your Xcode project using CocoaPods, specify it in your **Podfile:**
+
+```
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+pod 'MASFoundation'
+```
+Then, run the following command using the command prompt from the folder of your project:
+
+```
+$ pod install
+```
+
+### Manual Install
+
+For manual install, you add the Mobile SDK to your Xcode project. Note that you must add the MASFoundation library. For complete MAS functionality, install all of the MAS libraries as shown.
 
 1. Open your project in Xcode.
 2. Drag the SDK library files, and drop them into your project in the left navigator panel in Xcode. Select the option, `Copy items if needed`.
@@ -56,25 +70,9 @@ In this step, you add the Mobile SDK to your Xcode project. Note that you must a
 #import <MASFoundation/MASFoundation.h>
 ```
 
-### Installation using Cocoapods (Podfile)
-
-To integrate MASFoundation into your Xcode project using CocoaPods, specify it in your **Podfile:**
-
-```
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
-
-pod 'MASFoundation'
-```
-Then, run the following command via the command prompt from the folder of your project:
-
-```
-$ pod install
-```
-
 ## Set Up Project and Start the SDK
 
-The below ***video*** describes how to set up the project and start the Mobile SDK.
+The following ***video*** describes how to set up the project and start the Mobile SDK.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/h95MF55Uuuw/0.jpg)](http://www.youtube.com/watch?v=h95MF55Uuuw "Starting the SDK")
 
@@ -139,7 +137,7 @@ The SDK accepts the NSURL only with __local file path__. If the Web URL is provi
 
 ## Documentation
 
-For more documentation and API references please go to our [main website][docs]
+For more documentation and API references, go to our [main website][docs]
 
 ## License
 
