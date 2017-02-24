@@ -1,6 +1,6 @@
 # Version 1.3
 
-### Bug fixes
+### Bug fixes 
 - Fixes an issue with dynamically switching between msso config's when one of the configs has location enabled and another msso config has location disabled. If the user declines location services permission when first opening the app, the app would hang when switching msso's back to the config that allowed location. [DE230814]
 - Improved error handling in the case of missing parameters. [US240398]
 - Added nullability annotations to certain interfaces. [US240400]
@@ -13,6 +13,20 @@
 - Fingerprint Session Lock feature implementation.  User session can now be locked and unlocked with Fingerprint and/or device passcode (device local authentication). [US246928]
 - Client certificate process is newly added.  Mobile SDK will automatically detect the validity of the client certificate and renew it when necessary. [US240412]
 - MASAuthenticationProviders can now be retreived as needed through ```[MASAuthenticationProviders retrieveAuthenticationProvidersWithCompletion:] ```.
+
+# Version 1.2.00-CR3
+
+### Bug fixes
+- Fix the issue where [MAS gatewayISREachable] static property always returns true.
+- Fix the bluetooth permission prompt displays everytime SDK is initialized.  Now bluetooth permission prompt will only display when the bluetooth is actually being used.
+
+### New features
+
+-
+
+### Deprecated methods
+
+-
 
 # Version 1.2.00-CR1
 
