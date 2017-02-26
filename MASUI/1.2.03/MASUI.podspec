@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 
     s.name              = 'MASUI'
-    s.version           = '1.2.03'
+    s.version           = '1.2.02'
     s.summary           = 'MAS UI is the core iOS UI framework for CA Mobile API Gateway and CA Mobile App Services.'
-    s.homepage          = "https://github.com/CAAPIM/iOS-MAS-Storage"
+    s.homepage          = "https://github.com/CAAPIM/iOS-MAS-UI"
     s.social_media_url  = 'https://twitter.com/CAinc'
     s.authors           = {'Luis Sanches' => 'luis.sanches@ca.com'}
     s.license           = {:type => 'MIT',:file => 'LICENSE.md'}
