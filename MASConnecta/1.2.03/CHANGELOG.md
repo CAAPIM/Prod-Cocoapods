@@ -3,8 +3,6 @@
 - Release tag to align with MASFoundation framework.
 - ***No fixes for this framework***
 
-### New features
-
 # Version 1.2.01
 
 ### Bug fixes
