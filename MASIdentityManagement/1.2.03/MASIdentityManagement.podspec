@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name              = 'MASIdentityManagement'
-    s.version           = '1.2.01'
+    s.version           = '1.2.03'
     s.summary           = 'MASIdentityManagement is the user and group management framework for CA Mobile App Services.'
     s.homepage          = "https://github.com/CAAPIM/iOS-MAS-IdentityManagement"
     s.social_media_url  = 'https://twitter.com/CAinc'
