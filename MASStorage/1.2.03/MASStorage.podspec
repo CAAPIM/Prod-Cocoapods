@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name              = 'MASStorage'
-    s.version           = '1.2.01'
+    s.version           = '1.2.03'
     s.summary           = 'MASStorage is the data peristence framework for CA Mobile App Services.'
     s.homepage          = "https://github.com/CAAPIM/iOS-MAS-Storage"
     s.social_media_url  = 'https://twitter.com/CAinc'
