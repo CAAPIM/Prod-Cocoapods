@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.license           = {:type => 'MIT',:file => 'LICENSE.md'}
     s.platform          = :ios, '9.0'
     s.requires_arc      = true
-    s.source            = {:http => 'https://github.com/CAAPIM/iOS-MAS-IdentityManagement/releases/download/1.4.00/MASIdentityManagement.zip?raw=true'}
+    s.source            = {:http => 'https://github.com/CAAPIM/Prod-Cocoapods/blob/master/MASIdentityManagement/1.4.00/MASIdentityManagement.zip?raw=true'}
     s.vendored_frameworks = 'MASIdentityManagement.framework'
     s.dependency 'MASFoundation', '1.4.00'
 end
