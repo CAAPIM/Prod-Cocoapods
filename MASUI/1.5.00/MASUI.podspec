@@ -11,6 +11,5 @@ Pod::Spec.new do |s|
     s.requires_arc      = true
     s.source            = {:http => 'https://github.com/CAAPIM/iOS-MAS-UI/releases/download/1.5.00/MASUI.zip?raw=true'}
     s.vendored_frameworks = 'MASUI.framework'
-    s.resources         ='MASUIResources.bundle'
     s.dependency 'MASFoundation', '1.5.00'
 end
