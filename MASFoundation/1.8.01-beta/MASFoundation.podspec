@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name              = 'MASFoundation'
-    s.version           = '1.8.00-beta'
+    s.version           = '1.8.01-beta'
     s.summary           = 'MASFoundation is the core iOS framework for CA Mobile API Gateway and CA Mobile App Services.'
     s.homepage          = "https://github.com/CAAPIM/iOS-MAS-Foundation"
     s.social_media_url  = 'https://twitter.com/CAinc'
