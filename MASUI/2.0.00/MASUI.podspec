@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
     s.source            = {:http => 'https://github.com/CAAPIM/iOS-MAS-UI/releases/download/2.0.00/MASUI.zip?raw=true'}
     s.vendored_frameworks = 'MASUI.framework'
     s.dependency 'MASFoundation', '2.0.00'
-    s.dependency 'MASProximity', '2.0.00'
+    s.dependency 'MASProximity', '2.0.00'	
 end
