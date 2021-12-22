@@ -11,4 +11,6 @@ Pod::Spec.new do |s|
     s.requires_arc      = true
     s.source            = {:http => 'https://github.com/CAAPIM/iOS-MAS-Foundation/releases/download/2.2.00/MASFoundation.zip?raw=true'}
     s.vendored_frameworks = 'MASFoundation.framework'
+    s.pod_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+    s.user_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 end
