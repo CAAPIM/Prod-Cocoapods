@@ -12,5 +12,7 @@ Pod::Spec.new do |s|
     s.source            = {:http => 'https://github.com/CAAPIM/iOS-MAS-UI/releases/download/2.2.00/MASUI.zip?raw=true'}
     s.vendored_frameworks = 'MASUI.framework'
     s.dependency 'MASFoundation', '2.2.00'
-    s.dependency 'MASProximity', '2.2.00'	
+    s.dependency 'MAS-Proximity', '2.2.00'
+    s.pod_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+    s.user_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}	
 end
